@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logoImg from "/assets/images/logo/logo_1.png";
+import logoImg from "/logo.png";
 import {
   FaFacebookF,
   FaInstagram,
@@ -10,13 +10,22 @@ import {
 import { TiShoppingCart } from "react-icons/ti";
 import { FiMenu } from "react-icons/fi";
 import { Link } from "react-router-dom";
+import { RiCloseFill } from "@remixicon/react";
+
+const products = [
+  { name: 'Product 1', price: 29.99 },
+  { name: 'Product 2', price: 19.99 },
+  { name: 'Product 3', price: 39.99 },
+];
 
 const Header = () => {
-  const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
 
-  const toggleMobileMenu = () => {
-    setMobileMenuOpen(!isMobileMenuOpen);
-  };
+  const [isOpen, setIsOpen] = useState(false);
+  const totalPrice = products.reduce((total, product) => total + product.price, 0);
+
+
+  const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const toggleMobileMenu = () => setMobileMenuOpen(!isMobileMenuOpen);
 
   return (
     <>
@@ -136,12 +145,12 @@ const Header = () => {
               {/* Shopping Cart and User Actions */}
               <div className="flex items-center space-x-4 lg:space-x-6">
                 {/* Cart Icon */}
-                <a href="pages/ecommerce/cart.html" className="relative group">
+                <Link onClick={() => setIsOpen(!isOpen)} className="relative group cursor-pointer">
                   <TiShoppingCart className="text-2xl text-black dark:text-white transition duration-300 group-hover:text-secondaryColor" />
                   <span className="absolute -top-1 2xl:-top-[5px] -right-[10px] lg:right-3/4 2xl:-right-[10px] text-[10px] font-medium text-white dark:text-whiteColor-dark bg-secondaryColor px-1 py-[2px] leading-1 rounded-full z-50 block">
                     3
                   </span>
-                </a>
+                </Link>
 
                 {/* User Profile Icon */}
                 <Link
@@ -218,6 +227,110 @@ const Header = () => {
           </nav>
         </div>
       </header>
+
+
+
+      {/* onClick={() => setIsOpen(false)} */}
+      {isOpen && (
+        <div className="fixed overflow-auto shadow-dropdown-secodary max-w-dropdown3 w-2000 rounded-standard p-5 bg-white dark:bg-whiteColor-dark z-1 right-20 top-30">
+          <ul className="flex flex-col gap-y-5 pb-5 mb-30px border-b border-borderColor dark:border-borderColor-dark">
+            <li className="relative flex gap-x-15px items-center">
+              <a href="">
+                <img
+                  src="./assets/images/grid/cart1.jpg"
+                  alt="photo"
+                  className="w-card-img py-[3px]"
+                />
+              </a>
+              <div>
+                <a
+                  href=""
+                  className="text-sm text-darkblack hover:text-secondaryColor leading-5 block pb-2 capitalize dark:text-darkblack-dark dark:hover:text-secondaryColor"
+                >
+                  web dictionary
+                </a>
+                <p className="text-sm text-darkblack leading-5 block pb-5px dark:text-darkblack-dark">
+                  1 x<span className="text-secondaryColor">₹ 80.00</span>
+                </p>
+              </div>
+              <button className="absolute block top-0 right-0 text-base text-contentColor leading-1 hover:text-secondaryColor dark:text-contentColor-dark dark:hover:text-secondaryColor">
+                <i className="icofont-close-line" />
+              </button>
+            </li>
+            <li className="relative flex gap-x-15px items-center">
+              <a href="">
+                <img
+                  src="./assets/images/grid/cart2.jpg"
+                  alt="photo"
+                  className="w-card-img py-[3px]"
+                />
+              </a>
+              <div>
+                <a
+                  href=""
+                  className="text-sm text-darkblack hover:text-secondaryColor leading-5 block pb-2 capitalize dark:text-darkblack-dark dark:hover:text-secondaryColor"
+                >
+                  Design Minois
+                </a>
+                <p className="text-sm text-darkblack leading-5 block pb-5px dark:text-darkblack-dark">
+                  1 x<span className="text-secondaryColor">₹ 60.00</span>
+                </p>
+              </div>
+              <button className="absolute block top-0 right-0 text-base text-contentColor leading-1 hover:text-secondaryColor dark:text-contentColor-dark dark:hover:text-secondaryColor">
+                <i className="icofont-close-line" />
+              </button>
+            </li>
+            <li className="relative flex gap-x-15px items-center">
+              <a href="">
+                <img
+                  src="./assets/images/grid/cart3.jpg"
+                  alt="photo"
+                  className="w-card-img py-[3px]"
+                />
+              </a>
+              <div>
+                <a
+                  href=""
+                  className="text-sm text-darkblack hover:text-secondaryColor leading-5 block pb-2 capitalize dark:text-darkblack-dark dark:hover:text-secondaryColor"
+                >
+                  Crash Course
+                </a>
+                <p className="text-sm text-darkblack leading-5 block pb-5px dark:text-darkblack-dark">
+                  1 x<span className="text-secondaryColor">₹ 70.00</span>
+                </p>
+              </div>
+              <button className="absolute block top-0 right-0 text-base text-contentColor leading-1 hover:text-secondaryColor dark:text-contentColor-dark dark:hover:text-secondaryColor">
+                <i className="icofont-close-line" />
+              </button>
+            </li>
+          </ul>
+
+          <div>
+            <p className="text-size-17 text-contentColor dark:text-contentColor-dark pb-5 flex justify-between">
+              Total Price:
+              <span className="font-bold text-secondaryColor">₹ 210.00</span>
+            </p>
+          </div>
+
+          <div className="flex flex-col gap-y-5">
+            <a
+              href="./pages/ecommerce/cart.html"
+              className="text-sm font-bold text-contentColor dark:text-contentColor-dark hover:text-whiteColor hover:bg-secondaryColor text-center py-10px border border-secondaryColor"
+            >
+              View Cart
+            </a>
+            <a
+              href="./pages/ecommerce/checkout.html"
+              className="text-sm font-bold bg-darkblack dark:bg-darkblack-dark text-whiteColor dark:text-whiteColor-dark hover:bg-secondaryColor dark:hover:bg-secondaryColor text-center py-10px"
+            >
+              Checkout
+            </a>
+          </div>
+        </div>
+
+      )}
+
+
     </>
   );
 };

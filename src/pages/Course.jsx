@@ -254,7 +254,7 @@ const Course = () => {
                           {/* card image */}
                           <div className="relative mb-4">
                             <a
-                              href="course-details.html"
+                              href=""
                               className="w-full overflow-hidden rounded"
                             >
                               <img
@@ -312,7 +312,7 @@ const Course = () => {
                               </span>
                             </div>
                             <a
-                              href="course-details.html"
+                              href=""
                               className="text-lg font-semibold text-blackColor mb-10px font-hind dark:text-blackColor-dark hover:text-primaryColor dark:hover:text-primaryColor"
                             >
                               Foundation course to under stand about softwere
@@ -353,7 +353,7 @@ const Course = () => {
                           {/* card image */}
                           <div className="relative mb-4">
                             <a
-                              href="course-details.html"
+                              href=""
                               className="w-full overflow-hidden rounded"
                             >
                               <img
@@ -411,7 +411,7 @@ const Course = () => {
                               </span>
                             </div>
                             <a
-                              href="course-details.html"
+                              href=""
                               className="text-lg font-semibold text-blackColor mb-10px font-hind dark:text-blackColor-dark hover:text-primaryColor dark:hover:text-primaryColor"
                             >
                               Nidnies course to under stand about softwere
@@ -432,7 +432,7 @@ const Course = () => {
                             <div className="grid grid-cols-1 md:grid-cols-2 pt-15px border-t border-borderColor">
                               <div>
                                 <a
-                                  href="instructor-details.html"
+                                  href="instructor-details"
                                   className="text-base font-bold font-hind flex items-center hover:text-primaryColor dark:text-blackColor-dark dark:hover:text-primaryColor"
                                 >
                                   <img
@@ -455,7 +455,7 @@ const Course = () => {
                           {/* card image */}
                           <div className="relative mb-4">
                             <a
-                              href="course-details.html"
+                              href=""
                               className="w-full overflow-hidden rounded"
                             >
                               <img
@@ -513,7 +513,7 @@ const Course = () => {
                               </span>
                             </div>
                             <a
-                              href="course-details.html"
+                              href=""
                               className="text-lg font-semibold text-blackColor mb-10px font-hind dark:text-blackColor-dark hover:text-primaryColor dark:hover:text-primaryColor"
                             >
                               Minws course to under stand about solution
@@ -534,7 +534,7 @@ const Course = () => {
                             <div className="grid grid-cols-1 md:grid-cols-2 pt-15px border-t border-borderColor">
                               <div>
                                 <a
-                                  href="instructor-details.html"
+                                  href="instructor-details"
                                   className="text-base font-bold font-hind flex items-center hover:text-primaryColor dark:text-blackColor-dark dark:hover:text-primaryColor"
                                 >
                                   <img
@@ -557,7 +557,7 @@ const Course = () => {
                           {/* card image */}
                           <div className="relative mb-4">
                             <a
-                              href="course-details.html"
+                              href=""
                               className="w-full overflow-hidden rounded"
                             >
                               <img
@@ -615,7 +615,7 @@ const Course = () => {
                               </span>
                             </div>
                             <a
-                              href="course-details.html"
+                              href=""
                               className="text-lg font-semibold text-blackColor mb-10px font-hind dark:text-blackColor-dark hover:text-primaryColor dark:hover:text-primaryColor"
                             >
                               Design course to under stand about solution
@@ -636,7 +636,7 @@ const Course = () => {
                             <div className="grid grid-cols-1 md:grid-cols-2 pt-15px border-t border-borderColor">
                               <div>
                                 <a
-                                  href="instructor-details.html"
+                                  href="instructor-details"
                                   className="text-base font-bold font-hind flex items-center hover:text-primaryColor dark:text-blackColor-dark dark:hover:text-primaryColor"
                                 >
                                   <img
@@ -661,7 +661,7 @@ const Course = () => {
                           {/* card image */}
                           <div className="relative mb-4">
                             <a
-                              href="course-details.html"
+                              href=""
                               className="w-full overflow-hidden rounded"
                             >
                               <img
@@ -720,7 +720,7 @@ const Course = () => {
                               </span>
                             </div>
                             <a
-                              href="course-details.html"
+                              href=""
                               className="text-lg font-semibold text-blackColor mb-10px font-hind dark:text-blackColor-dark hover:text-primaryColor dark:hover:text-primaryColor"
                             >
                               Data course to under stand about solution
@@ -741,7 +741,7 @@ const Course = () => {
                             <div className="grid grid-cols-1 md:grid-cols-2 pt-15px border-t border-borderColor">
                               <div>
                                 <a
-                                  href="instructor-details.html"
+                                  href="instructor-details"
                                   className="text-base font-bold font-hind flex items-center hover:text-primaryColor dark:text-blackColor-dark dark:hover:text-primaryColor"
                                 >
                                   <img
@@ -766,7 +766,7 @@ const Course = () => {
                           {/* card image */}
                           <div className="relative mb-4">
                             <a
-                              href="course-details.html"
+                              href=""
                               className="w-full overflow-hidden rounded"
                             >
                               <img
@@ -824,7 +824,7 @@ const Course = () => {
                               </span>
                             </div>
                             <a
-                              href="course-details.html"
+                              href=""
                               className="text-lg font-semibold text-blackColor mb-10px font-hind dark:text-blackColor-dark hover:text-primaryColor dark:hover:text-primaryColor"
                             >
                               Big data to under stand about solution pacage
@@ -845,7 +845,7 @@ const Course = () => {
                             <div className="grid grid-cols-1 md:grid-cols-2 pt-15px border-t border-borderColor">
                               <div>
                                 <a
-                                  href="instructor-details.html"
+                                  href="instructor-details"
                                   className="text-base font-bold font-hind flex items-center hover:text-primaryColor dark:text-blackColor-dark dark:hover:text-primaryColor"
                                 >
                                   <img

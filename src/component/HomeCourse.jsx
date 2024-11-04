@@ -34,7 +34,7 @@ const Course = () => {
                     {/* Card Image */}
                     <div className="relative mb-4">
                       <a
-                        href="course-details.html"
+                        href=""
                         className="w-full overflow-hidden rounded"
                       >
                         <img
@@ -81,7 +81,7 @@ const Course = () => {
                         <span className="text-xs text-lightGrey6">(44)</span>
                       </div>
                       <a
-                        href="course-details.html"
+                        href=""
                         className="text-lg font-semibold text-blackColor mb-2 font-hind dark:text-blackColor-dark hover:text-primaryColor dark:hover:text-primaryColor"
                       >
                         Foundation course to understand software
@@ -89,9 +89,9 @@ const Course = () => {
 
                       {/* Price */}
                       <div className="text-lg font-semibold text-primaryColor font-inter mb-4">
-                        $32.00
+                        ₹32.00
                         <del className="text-sm text-lightGrey4 font-semibold ml-2">
-                          $67.00
+                          ₹67.00
                         </del>
                         <span className="ml-6">
                           <del className="text-base font-semibold text-secondaryColor3">
@@ -124,7 +124,7 @@ const Course = () => {
                     {/* card image */}
                     <div className="relative mb-4">
                       <a
-                        href="course-details.html"
+                        href=""
                         className="w-full overflow-hidden rounded"
                       >
                         <img
@@ -172,16 +172,16 @@ const Course = () => {
                         </div>
                       </div>
                       <a
-                        href="course-details.html"
+                        href=""
                         className="text-xl font-semibold text-blackColor mb-10px font-hind dark:text-blackColor-dark hover:text-primaryColor dark:hover:text-primaryColor"
                       >
                         Nidnies course to under stand about softwere
                       </a>
                       {/* price */}
                       <div className="text-lg font-semibold text-primaryColor font-inter mb-4">
-                        $32.00
+                        ₹32.00
                         <del className="text-sm text-lightGrey4 font-semibold">
-                          / $67.00
+                          / ₹67.00
                         </del>
                         <span className="ml-6">
                           <del className="text-base font-semibold text-greencolor">
@@ -193,7 +193,7 @@ const Course = () => {
                       <div className="grid grid-cols-1 md:grid-cols-2 pt-15px border-t border-borderColor">
                         <div>
                           <a
-                            href="instructor-details.html"
+                            href="instructor-details"
                             className="text-base font-bold font-hind flex items-center hover:text-primaryColor dark:text-blackColor-dark dark:hover:text-primaryColor"
                           >
                             <img
@@ -224,7 +224,7 @@ const Course = () => {
                     {/* card image */}
                     <div className="relative mb-4">
                       <a
-                        href="course-details.html"
+                        href=""
                         className="w-full overflow-hidden rounded"
                       >
                         <img
@@ -272,16 +272,16 @@ const Course = () => {
                         </div>
                       </div>
                       <a
-                        href="course-details.html"
+                        href=""
                         className="text-xl font-semibold text-blackColor mb-10px font-hind dark:text-blackColor-dark hover:text-primaryColor dark:hover:text-primaryColor"
                       >
                         Minws course to under stand about solution
                       </a>
                       {/* price */}
                       <div className="text-lg font-semibold text-primaryColor font-inter mb-4">
-                        $40.00
+                        ₹40.00
                         <del className="text-sm text-lightGrey4 font-semibold">
-                          / $67.00
+                          / ₹67.00
                         </del>
                         <span className="ml-6">
                           <del className="text-base font-semibold text-secondaryColor3">
@@ -293,7 +293,7 @@ const Course = () => {
                       <div className="grid grid-cols-1 md:grid-cols-2 pt-15px border-t border-borderColor">
                         <div>
                           <a
-                            href="instructor-details.html"
+                            href="instructor-details"
                             className="text-base font-bold font-hind flex items-center hover:text-primaryColor dark:text-blackColor-dark dark:hover:text-primaryColor"
                           >
                             <img
@@ -324,7 +324,7 @@ const Course = () => {
                     {/* card image */}
                     <div className="relative mb-4">
                       <a
-                        href="course-details.html"
+                        href=""
                         className="w-full overflow-hidden rounded"
                       >
                         <img
@@ -372,16 +372,16 @@ const Course = () => {
                         </div>
                       </div>
                       <a
-                        href="course-details.html"
+                        href=""
                         className="text-xl font-semibold text-blackColor mb-10px font-hind dark:text-blackColor-dark hover:text-primaryColor dark:hover:text-primaryColor"
                       >
                         Design course to under stand about solution
                       </a>
                       {/* price */}
                       <div className="text-lg font-semibold text-primaryColor font-inter mb-4">
-                        $40.00
+                        ₹40.00
                         <del className="text-sm text-lightGrey4 font-semibold">
-                          / $67.00
+                          / ₹67.00
                         </del>
                         <span className="ml-6">
                           <del className="text-base font-semibold text-secondaryColor3">
@@ -393,7 +393,7 @@ const Course = () => {
                       <div className="grid grid-cols-1 md:grid-cols-2 pt-15px border-t border-borderColor">
                         <div>
                           <a
-                            href="instructor-details.html"
+                            href="instructor-details"
                             className="text-base font-bold font-hind flex items-center hover:text-primaryColor dark:text-blackColor-dark dark:hover:text-primaryColor"
                           >
                             <img
@@ -426,7 +426,7 @@ const Course = () => {
                     {/* card image */}
                     <div className="relative mb-4">
                       <a
-                        href="course-details.html"
+                        href=""
                         className="w-full overflow-hidden rounded"
                       >
                         <img
@@ -474,16 +474,16 @@ const Course = () => {
                         </div>
                       </div>
                       <a
-                        href="course-details.html"
+                        href=""
                         className="text-xl font-semibold text-blackColor mb-10px font-hind dark:text-blackColor-dark hover:text-primaryColor dark:hover:text-primaryColor"
                       >
                         Data course to under stand about solution
                       </a>
                       {/* price */}
                       <div className="text-lg font-semibold text-primaryColor font-inter mb-4">
-                        $40.00
+                        ₹40.00
                         <del className="text-sm text-lightGrey4 font-semibold">
-                          / $67.00
+                          / ₹67.00
                         </del>
                         <span className="ml-6">
                           <del className="text-base font-semibold text-secondaryColor3">
@@ -495,7 +495,7 @@ const Course = () => {
                       <div className="grid grid-cols-1 md:grid-cols-2 pt-15px border-t border-borderColor">
                         <div>
                           <a
-                            href="instructor-details.html"
+                            href="instructor-details"
                             className="text-base font-bold font-hind flex items-center hover:text-primaryColor dark:text-blackColor-dark dark:hover:text-primaryColor"
                           >
                             <img
@@ -528,7 +528,7 @@ const Course = () => {
                     {/* card image */}
                     <div className="relative mb-4">
                       <a
-                        href="course-details.html"
+                        href=""
                         className="w-full overflow-hidden rounded"
                       >
                         <img
@@ -576,16 +576,16 @@ const Course = () => {
                         </div>
                       </div>
                       <a
-                        href="course-details.html"
+                        href=""
                         className="text-xl font-semibold text-blackColor mb-10px font-hind dark:text-blackColor-dark hover:text-primaryColor dark:hover:text-primaryColor"
                       >
                         Big data to under stand about solution pacage
                       </a>
                       {/* price */}
                       <div className="text-lg font-semibold text-primaryColor font-inter mb-4">
-                        $40.00
+                        ₹40.00
                         <del className="text-sm text-lightGrey4 font-semibold">
-                          / $67.00
+                          / ₹67.00
                         </del>
                         <span className="ml-6">
                           <del className="text-base font-semibold text-secondaryColor3">
@@ -597,7 +597,7 @@ const Course = () => {
                       <div className="grid grid-cols-1 md:grid-cols-2 pt-15px border-t border-borderColor">
                         <div>
                           <a
-                            href="instructor-details.html"
+                            href="instructor-details"
                             className="text-base font-bold font-hind flex items-center hover:text-primaryColor dark:text-blackColor-dark dark:hover:text-primaryColor"
                           >
                             <img

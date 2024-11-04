@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Login = () => {
   return (
@@ -17,15 +18,7 @@ const Login = () => {
                       <h3 className="text-size-32 font-bold text-blackColor dark:text-blackColor-dark mb-2 leading-normal">
                         Login
                       </h3>
-                      <p className="text-contentColor dark:text-contentColor-dark mb-15px">
-                        Don't have an account yet?
-                        <a
-                          href="login.html"
-                          className="hover:text-primaryColor relative after:absolute after:left-0 after:bottom-0.5 after:w-0 after:h-0.5 after:bg-primaryColor after:transition-all after:duration-300 hover:after:w-full"
-                        >
-                          Sign up for free
-                        </a>
-                      </p>
+
                     </div>
                     <form className="pt-25px" data-aos="fade-up">
                       <div className="mb-25px">
@@ -64,6 +57,7 @@ const Login = () => {
                           >
                             Forgot your password?
                           </a>
+
                         </div>
                       </div>
                       <div className="my-25px text-center">
@@ -80,20 +74,9 @@ const Login = () => {
                           or Log-in with
                         </p>
                       </div>
-                      <div className="text-center flex gap-x-1 md:gap-x-15px lg:gap-x-25px gap-y-5 items-center justify-center flex-wrap">
-                        <button
-                          type="submit"
-                          className="text-size-15 text-whiteColor bg-primaryColor px-11 py-10px border border-primaryColor hover:text-primaryColor hover:bg-whiteColor inline-block rounded group dark:hover:text-whiteColor dark:hover:bg-whiteColor-dark"
-                        >
-                          <i className="icofont-facebook" /> Facebook
-                        </button>
-                        <button
-                          type="submit"
-                          className="text-size-15 text-whiteColor bg-primaryColor px-11 py-10px border border-primaryColor hover:text-primaryColor hover:bg-whiteColor inline-block rounded group dark:hover:text-whiteColor dark:hover:bg-whiteColor-dark"
-                        >
-                          <i className="icofont-google-plus" /> Google
-                        </button>
-                      </div>
+                      <Link to="/sign-up" className="py-3">Don't have an account yet? <span className="text-blue-600">SignUp</span></Link>
+
+                      
                     </form>
                   </div>
                 </div>

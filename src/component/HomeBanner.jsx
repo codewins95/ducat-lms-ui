@@ -48,7 +48,7 @@ const HomeBanner = () => {
                 />
                 <img
                   className="absolute left-0 top-0 lg:top-4 right-0 mx-auto"
-                  src="/assets/images/about/about_1.png"
+                  src="/hero.svg"
                   alt=""
                 />
               </div>

@@ -42,7 +42,7 @@ const Blogs = () => {
               {/* blog content */}
               <div className="p-5 md:p-35px md:pt-10">
                 <h3 className="text-2xl md:text-4xl leading-30px md:leading-45px font-bold text-blackColor hover:text-primaryColor pb-25px dark:text-blackColor-dark dark:hover:text-primaryColor">
-                  <a href="blog-details.html">
+                  <a href="">
                     It is a long established fact that a reader will be Standard
                     Part
                   </a>
@@ -132,7 +132,7 @@ const Blogs = () => {
                   {/* blog content */}
                   <div className="px-5 py-25px">
                     <h3 className="text-2xl md:text-size-28 leading-30px md:leading-35px font-bold text-blackColor hover:text-primaryColor dark:text-blackColor-dark dark:hover:text-primaryColor">
-                      <a href="blog-details.html">
+                      <a href="">
                         It is a long established fact that a reader will be
                         Standard Part
                       </a>
@@ -156,7 +156,7 @@ const Blogs = () => {
                   {/* blog content */}
                   <div className="px-5 py-25px">
                     <h3 className="text-2xl md:text-size-28 leading-30px md:leading-35px font-bold text-blackColor hover:text-primaryColor dark:text-blackColor-dark dark:hover:text-primaryColor">
-                      <a href="blog-details.html">
+                      <a href="">
                         It is a long established fact that a reader will be
                         Standard Part
                       </a>
